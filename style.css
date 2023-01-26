@@ -6,7 +6,6 @@ body {
 
   div.container{
     width: 100%;
-    max-width: var(--maxwidth);
     margin: 0 auto;
     overflow: hidden;
 }
