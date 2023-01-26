@@ -1,0 +1,74 @@
+body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+  }
+
+  div.container{
+    width: 100%;
+    max-width: var(--maxwidth);
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    border: 1px solid;
+    padding: 20px;
+    margin: 30px;
+}
+
+header h1 {
+    font-size: 1.5rem;
+    font-family:
+}
+#menu {
+    width: 100%;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+}
+
+
+nav button {
+    border-style: groove;
+    border-color: rgb(249, 249, 249);
+    color: black;
+    background-color: rgb(249, 249, 249);
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    font-size: 1.5rem;
+    border-bottom: 5px solid darkturquoise;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+
+    #subMenu{
+        display: flex;
+        flex-direction: column;
+    }
+    div.open{
+        display: none;
+    }
+    div .open{
+        border-color: darkturquoise;
+        border-width: 5px;
+       }
+    .MenuItem:hover .open {
+        display: block;
+        position: fixed;
+        top: auto;
+      }
+    
+
+    button:active {
+        background-color: darkturquoise;
+    }
+    /*https://www.w3schools.com/cssref/sel_active.php Denne fikk jeg ikke til akkurat nå dessverre. */
+
+    /* kilder: https://www.youtube.com/watch?v=XQzagLCy9fE, undervsiningsmateriale på canvas og lms*/
